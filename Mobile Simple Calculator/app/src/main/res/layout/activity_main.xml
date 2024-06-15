@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="339dp"
+        android:text="@string/label_num1"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.541"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    zs
+
+    <EditText
+        android:id="@+id/edtNum1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:hint="@string/edt_num1"
+        android:inputType="number"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/label_num2"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNum1" />
+
+    <EditText
+        android:id="@+id/edtNum2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="48dp"
+        android:ems="10"
+        android:hint="@string/edt_num2"
+        android:inputType="number"
+        android:onClick="buttonCLick"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <Button
+        android:id="@+id/btnadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:width="180dp"
+        android:height="180dp"
+        android:backgroundTint="#9C27B0"
+        android:text="@string/btn_plus"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/btnsubtract"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/edtNum2" />
+
+    <Button
+        android:id="@+id/btnsubtract"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="180dp"
+        android:height="180dp"
+        android:backgroundTint="#E91E63"
+        android:onClick="buttonCLick"
+        android:text="@string/btn_subtraction"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnadd"
+        app:layout_constraintTop_toTopOf="@+id/btnadd" />
+
+    <Button
+        android:id="@+id/btnmultiply"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="180dp"
+        android:height="180dp"
+        android:backgroundTint="#8BC34A"
+        android:onClick="buttonCLick"
+        android:text="@string/btn_multiply"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toStartOf="@+id/btndivide"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnadd" />
+
+    <Button
+        android:id="@+id/btndivide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:width="180dp"
+        android:height="180dp"
+        android:backgroundTint="#009688"
+        android:onClick="buttonCLick"
+        android:text="@string/btn_division"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/btnmultiply"
+        app:layout_constraintTop_toTopOf="@+id/btnmultiply" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
