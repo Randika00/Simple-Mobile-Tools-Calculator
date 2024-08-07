@@ -2,7 +2,7 @@
 
 Description:
 
-Simple-Mobile-Tools-Calculator is a sleek, efficient, and user-friendly mobile application developed using Kotlin 🧑‍💻. Designed to provide a seamless and powerful calculation experience, this app stands out with its intuitive interface and essential features that cater to both basic and advanced mathematical needs 📐. Perfect for students 🎓, professionals 💼, and everyday users 🌐, our calculator app ensures that you have the right tool at your fingertips ✨.
+Simple-Mobile-Tools-Calculator is a sleek, efficient, and user-friendly mobile application developed using Kotlin 🧑‍💻. Designed to provide a seamless and powerful calculation experience, this app stands out with its intuitive interface and essential features that cater to both basic and advanced mathematical needs 📐. Perfect for students 🎓, professionals 💼, and everyday users 🌐, our calculator app ensures that you have the right tool at your fingertips ✨.  
 
 Features: 
 
